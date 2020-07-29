@@ -1,15 +1,13 @@
 Summary:	C++ universal value object and JSON library
 Summary(pl.UTF-8):	Biblioteka C++ do obiektów uniwersalnych wartości i JSON
 Name:		libunivalue
-Version:	1.0.4
-Release:	2
+Version:	1.0.5
+Release:	1
 License:	MIT
 Group:		Libraries
 #Source0Download: https://github.com/jgarzik/univalue/releases
-#TODO use:
-#Source0:	https://github.com/jgarzik/univalue/archive/v%{version}/univalue-%{version}.tar.gz
-Source0:	https://github.com/jgarzik/univalue/archive/v%{version}.tar.gz
-# Source0-md5:	60bb4f4dc06fba544bf2e0b0aad815b3
+Source0:	https://github.com/jgarzik/univalue/archive/v%{version}/univalue-%{version}.tar.gz
+# Source0-md5:	f8568f911a8c5cbbcbcd58e31e92c013
 URL:		https://github.com/jgarzik/univalue
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
